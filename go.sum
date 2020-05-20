@@ -1,0 +1,10 @@
+bazil.org/fuse v0.0.0-20200407214033-5883e5a4b512 h1:SRsZGA7aFnCZETmov57jwPrWuTmaZK6+4R4v5FUe1/c=
+bazil.org/fuse v0.0.0-20200407214033-5883e5a4b512/go.mod h1:FbcW6z/2VytnFDhZfumh8Ss8zxHE6qpMP5sHTRe0EaM=
+github.com/hanwen/go-fuse v1.0.0 h1:GxS9Zrn6c35/BnfiVsZVWmsG803xwE7eVRDvcf/BEVc=
+github.com/hanwen/go-fuse v1.0.0/go.mod h1:unqXarDXqzAk0rt98O2tVndEPIpUgLD9+rwFisZH3Ok=
+github.com/jbenet/go-fuse-version v0.0.0-20160322195114-6d4c97bcf253 h1:+AUuGGAh/2X3wcomiZvjeTcx5OvGXsfdnIqk3KPM+HE=
+github.com/jbenet/go-fuse-version v0.0.0-20160322195114-6d4c97bcf253/go.mod h1:gWtF+3u3zVe5/+I44niTEcU/KmVo2oMyLh0WhxpBT28=
+github.com/tv42/httpunix v0.0.0-20191220191345-2ba4b9c3382c/go.mod h1:hzIxponao9Kjc7aWznkXaL4U4TWaDSs8zcsY4Ka08nM=
+golang.org/x/sys v0.0.0-20180830151530-49385e6e1522/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
+golang.org/x/sys v0.0.0-20191210023423-ac6580df4449 h1:gSbV7h1NRL2G1xTg/owz62CST1oJBmxy4QpMMregXVQ=
+golang.org/x/sys v0.0.0-20191210023423-ac6580df4449/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
