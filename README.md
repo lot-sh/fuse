@@ -3,32 +3,35 @@
 ### Linux
 
 ```shell
-$ sudo apt-get install fuse
+sudo apt-get install fuse
 ```
 
 ### MacOSX
 
 ```shell
-$ brew cask install osxfuse
+brew cask install osxfuse
 
 ```
 
 ## Build
 
 ```shell
-$ go get
-$ go build -o lot-fuse main.go
+go get
+go build -o lot-fuse main.go
+```
+
+## Usage
+
+```shell
+export LOTPATH=/tmp/mountpoint
+export LOTBIN=$LOTPATH/bin
+export PATH=$PATH:$LOTBIN
+mkdir -p $LOTBIN
 ```
 
 ```shell
-$ export LOTPATH=/tmp/mountpoint
-$ export LOTBIN=$LOTPATH/bin
-$ export PATH=$PATH:$LOTBIN
-$ mkdir -p $LOTBIN
-```
-
-```shell
-$ umount $LOTBIN ; go build -o lot-fuse main2.go && ./lot-fuse -fuse.debug $LOTBIN
+umount $LOTBIN
+./lot-fuse -fuse.debug $LOTBIN
 ```
 
 ## References
